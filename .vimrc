@@ -1,25 +1,30 @@
-"" General
+" General
 set nocompatible
 syntax enable
 filetype plugin on
 set encoding=utf-8
 set showcmd
 
-"" Indentation
+" Colors
+set background=dark
+let g:solarized_termtrans=1
+colorscheme solarized
+
+" Indentation
 set autoindent
 
-"" Whitespace
+" Whitespace
 set nowrap
 set tabstop=4 shiftwidth=4 softtabstop=4
 set expandtab
 set backspace=indent,eol,start
 set list listchars=tab:»\ ,trail:·
 
-"" Searching
+" Searching
 set hlsearch
 set incsearch
 set ignorecase
 set smartcase
 
-"" Scrolling
+" Scrolling
 set scrolloff=3
