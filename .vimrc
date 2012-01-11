@@ -16,7 +16,6 @@ colorscheme solarized
 set autoindent
 
 " Whitespace
-set nowrap
 set tabstop=4 shiftwidth=4 softtabstop=4
 set expandtab
 set backspace=indent,eol,start
