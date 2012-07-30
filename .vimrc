@@ -1,7 +1,7 @@
 " General
 set nocompatible
 syntax enable
-filetype plugin on
+filetype plugin indent on
 set encoding=utf-8
 set showcmd
 
