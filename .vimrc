@@ -2,7 +2,14 @@
 set nocompatible
 syntax enable
 filetype plugin indent on
+set spell spelllang=en_ca
+set modeline modelines=5
 set encoding=utf-8
+
+" Interface
+if exists('+colorcolumn')
+    set colorcolumn=+1
+endif
 set showcmd
 
 " Colors
