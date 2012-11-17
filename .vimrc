@@ -9,6 +9,7 @@ if exists('+colorcolumn')
     set colorcolumn=+1
 endif
 set showcmd
+set ruler
 
 " Colours
 set background=dark
