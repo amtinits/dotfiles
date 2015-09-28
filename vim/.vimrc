@@ -3,6 +3,7 @@ call plug#begin()
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-obsession'
 Plug 'altercation/vim-colors-solarized'
+Plug 'bling/vim-airline'
 Plug 'scrooloose/syntastic'
 Plug 'evanmiller/nginx-vim-syntax'
 Plug 'tmux-plugins/vim-tmux'
@@ -27,6 +28,9 @@ set t_Co=256
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 colorscheme solarized
+
+" Airline
+let g:airline#extensions#tabline#enabled = 1
 
 " Syntastic
 set statusline+=%#warningmsg#
