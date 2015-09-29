@@ -2,6 +2,8 @@
 call plug#begin()
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-obsession'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
 Plug 'altercation/vim-colors-solarized'
 Plug 'bling/vim-airline'
 Plug 'scrooloose/syntastic'
