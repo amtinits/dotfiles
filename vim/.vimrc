@@ -9,6 +9,8 @@ Plug 'bling/vim-airline'
 Plug 'scrooloose/syntastic'
 Plug 'evanmiller/nginx-vim-syntax'
 Plug 'tmux-plugins/vim-tmux'
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-easytags'
 call plug#end()
 
 " General
@@ -38,6 +40,12 @@ let g:airline#extensions#tabline#enabled = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_always_populate_loc_list = 1
+
+" EasyTags
+let g:easytags_async = 1
+let g:easytags_events = ['BufWritePost']
+let g:easytags_auto_highlight = 0
+let g:easytags_by_filetype = '~/.vimtags'
 
 " Editing
 set spell spelllang=en_ca
