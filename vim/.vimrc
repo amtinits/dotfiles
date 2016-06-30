@@ -7,10 +7,13 @@ Plug 'tpope/vim-repeat'
 Plug 'altercation/vim-colors-solarized'
 Plug 'bling/vim-airline'
 Plug 'scrooloose/syntastic'
+Plug 'ntpeters/vim-better-whitespace'
 Plug 'evanmiller/nginx-vim-syntax'
 Plug 'tmux-plugins/vim-tmux'
+Plug 'uarun/vim-protobuf'
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-easytags'
+Plug 'sgeb/vim-diff-fold'
 call plug#end()
 
 " General
