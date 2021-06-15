@@ -30,7 +30,7 @@ set showcmd
 set ruler
 
 " Colours
-set background=dark
+set background=light
 colorscheme solarized
 
 " Airline
